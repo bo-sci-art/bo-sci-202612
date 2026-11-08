@@ -221,7 +221,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (backToTopButton) {
     backToTopButton.addEventListener("click", () => {
-      window.location.href = "https://bo-sci-art.github.io/bo-sci-202610/";
+      window.location.href = "/bo-sci-202612/";
     });
   }
 

@@ -1952,7 +1952,7 @@ window.addEventListener('resize', enforceLandscape);
 window.addEventListener('load', enforceLandscape);
 
 document.getElementById('back-to-home').addEventListener('click', () => {
-    window.location.href = 'https://bo-sci-art.github.io/bo-sci-202610/';
+    window.location.href = '/bo-sci-202612/';
 });
 
 // HTML上のモーダルを取得
