@@ -6,7 +6,6 @@ import { LuPenLine } from "react-icons/lu";
 import { BiCommentDetail } from "react-icons/bi";
 import mapImage1 from '../images/map.png';
 import mapImage2 from '../images/map2.png';
-import mapImageYagami from '../images/yagami_map.png';  // ← 矢上キャンパスの正しい地図に差し替え
 
 interface CurriculumItem {
   title: string;
@@ -20,13 +19,13 @@ const details = [
   {
     icon: Calendar,
     label: '開催日時',
-    value: '2026年10月18日（日）',
+    value: '2026年12月12日（土）',
   },
   {
     icon: Users,
     label: '対象',
     value:
-      '港北区内在住の18歳以上の方<br/>（18歳未満のお子様の同伴可。小さいお子様向けに保育対応も行う予定です。）',
+      '港北区内在住の18歳以上の方<br/>（18歳未満のお子様の同伴可。各回先着20名）<br/><br/>申込期間：2026年11月15日（日）～12月6日（日）<br/><br/>保育対応：3歳～9歳のお子様、各回先着3名まで（無料）<br/>保育をご希望の方は12月4日（金）までにお申込みください。',
   },
   {
     icon: LuPenLine,
@@ -43,15 +42,15 @@ const details = [
 const curriculum: CurriculumItem[] = [
   {
     title: '第１ターム',
-    time: '10:30-12:15',
-    location: '慶應義塾大学矢上キャンパス（創想館 ディスカッションルーム7）',
+    time: '10:00-11:45',
+    location: 'Be ACTO 日吉 まちのスタジオ',
     description:
-      '場所：</br><span class="text-lg font-semibold">慶應義塾大学矢上キャンパス（創想館 ディスカッションルーム7）</span><br/><span class="text-sm text-gray-500">※当日案内人がいますので、矢上キャンパスにお越しください</span>',
-    mapImage: mapImageYagami, // ⚠️矢上キャンパスの地図に差し替え要
+      '場所：</br><span class="text-lg font-semibold">Be ACTO 日吉<br/>まちのスタジオ</span>',
+    mapImage: mapImage1,
   },
   {
     title: '第２ターム',
-    time: '13:30-15:15',
+    time: '13:00-14:45',
     location: 'Be ACTO 日吉 まちのスタジオ',
     description:
       '場所：</br><span class="text-lg font-semibold">Be ACTO 日吉<br/>まちのスタジオ</span>',
@@ -60,10 +59,10 @@ const curriculum: CurriculumItem[] = [
   {
     title: '第３ターム',
     time: '15:30-17:15',
-    location: 'Be ACTO 日吉 まちのスタジオ',
+    location: '慶應義塾大学 日吉キャンパス（協生館 2F 多目的教室1）',
     description:
-      '場所：</br><span class="text-lg font-semibold">Be ACTO 日吉<br/>まちのスタジオ</span>',
-    mapImage: mapImage1,
+      '場所：</br><span class="text-lg font-semibold">慶應義塾大学 日吉キャンパス<br/>協生館 2F 多目的教室1</span><br/><span class="text-sm text-gray-500">日吉駅から徒歩約1分</span>',
+    mapImage: mapImage2,
   },
 ];
 
