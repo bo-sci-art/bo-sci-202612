@@ -6,7 +6,7 @@ require([
   WebMap, MapView, reactiveUtils
 ) {
 
-  const WS_URL = "https://forms.gle/w2DcgdoPZJUWjCZm9";
+  const WS_URL = "https://docs.google.com/forms/d/e/1FAIpQLScAMVrt3ODozZ9pXdv1VS73TBUV3A0yOSDAWHsC0n5J6-32mA/viewform";
 
   // ズーム＆ドラッグ用の変数
   let isZoomed = false;

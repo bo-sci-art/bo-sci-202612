@@ -57,7 +57,7 @@ export function Hero() {
           {/* 申込ボタン */}
 
           <a
-            href="https://forms.gle/w2DcgdoPZJUWjCZm9"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScAMVrt3ODozZ9pXdv1VS73TBUV3A0yOSDAWHsC0n5J6-32mA/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-900 text-white px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors inline-block
